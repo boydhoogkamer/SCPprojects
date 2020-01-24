@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000 0%, #333333 100%);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.canvas {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    height: 608px;
+    width: 608px;
+}
+
